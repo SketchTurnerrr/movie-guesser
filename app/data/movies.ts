@@ -55,6 +55,12 @@ const movies = [
     guessed: false,
   },
   {
+    genre: 'action',
+    name: 'Міцний горішок',
+    images: ['/diehard/1.jpg', '/diehard/2.jpg', '/diehard/3.jpg'],
+    guessed: false,
+  },
+  {
     genre: 'animation',
     name: 'Волл І',
     images: ['/walle/walle_h.jpg', '/walle/walle_m.jpg', '/walle/walle_e.jpg'],
@@ -114,6 +120,12 @@ const movies = [
   },
   {
     genre: 'animation',
+    name: 'Думками навиворіт',
+    images: ['/insideout/1.jpg', '/insideout/2.jpg', '/insideout/3.jpg'],
+    guessed: false,
+  },
+  {
+    genre: 'animation',
     name: 'Зоопліс',
     images: ['/zootopia/1.jpg', '/zootopia/2.jpg', '/zootopia/3.jpg'],
     guessed: false,
@@ -168,6 +180,48 @@ const movies = [
     genre: 'fantasy',
     name: 'Вартові Галактики',
     images: ['/gotg/gotg_h.jpg', '/gotg/gotg_m.jpg', '/gotg/gotg_e.jpg'],
+    guessed: false,
+  },
+  {
+    genre: 'fantasy',
+    name: 'Ван Хельсінг',
+    images: ['/vanhelsing/1.jpg', '/vanhelsing/2.jpg', '/vanhelsing/3.jpg'],
+    guessed: false,
+  },
+  {
+    genre: 'fantasy',
+    name: 'Трансформери',
+    images: ['/tranformers/1.jpg', '/tranformers/2.jpg', '/tranformers/3.jpg'],
+    guessed: false,
+  },
+  {
+    genre: 'fantasy',
+    name: 'Тихоокеанський рубіж',
+    images: ['/pacificrim/1.jpg', '/pacificrim/2.jpg', '/pacificrim/3.jpg'],
+    guessed: false,
+  },
+  {
+    genre: 'fantasy',
+    name: 'Термінатор 2',
+    images: ['/term2/1.jpg', '/term2/2.jpg', '/term2/3.jpg'],
+    guessed: false,
+  },
+  {
+    genre: 'fantasy',
+    name: 'Петля часу',
+    images: ['/loop/1.jpg', '/loop/2.jpg', '/loop/3.jpg'],
+    guessed: false,
+  },
+  {
+    genre: 'fantasy',
+    name: 'Повстання росіян',
+    images: ['/monkey/1.jpg', '/monkey/2.jpg', '/monkey/3.jpg'],
+    guessed: false,
+  },
+  {
+    genre: 'fantasy',
+    name: 'Водний cвіт',
+    images: ['/waterworld/1.jpg', '/waterworld/2.jpg', '/waterworld/3.jpg'],
     guessed: false,
   },
 

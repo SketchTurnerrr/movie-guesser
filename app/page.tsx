@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { useEffect, useState } from 'react';
 import useMoviesStore, { IMovie } from './zustand/movieStore';
 import Link from 'next/link';
+import { Teams } from '@/components/teams';
 
 const getRandomMovie = (movies: IMovie[]) => {
   const randomMovie = movies[Math.floor(Math.random() * movies.length)];
@@ -69,6 +70,7 @@ export default function Home() {
           {movies.filter((mv) => mv.genre === genre && !mv.guessed).length}
         </Link>
       </Button>
+      <Teams />
       {/* <div className="bg-slate-900 p-4 rounded-sm text-zinc-300 max-w-5xl w-full items-center justify-between  text-sm">
         <span>{guessNumber}</span>
       </div> */}

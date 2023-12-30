@@ -121,7 +121,7 @@ export default function Page() {
       <Link href={'/'}>
         <Button
           size={'lg'}
-          className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-3xl px-16 py-8 text-center me-2 mb-2"
+          className="text-white bg-amber-600 hover:bg-amber-500 font-bold rounded-lg text-3xl px-16 py-8 text-center me-2 mb-2"
         >
           Далі
         </Button>

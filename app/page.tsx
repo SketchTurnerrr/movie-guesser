@@ -70,7 +70,7 @@ export default function Home() {
           {movies.filter((mv) => mv.genre === genre && !mv.guessed).length}
         </Link>
       </Button>
-      <Teams />
+      {/* <Teams /> */}
       {/* <div className="bg-slate-900 p-4 rounded-sm text-zinc-300 max-w-5xl w-full items-center justify-between  text-sm">
         <span>{guessNumber}</span>
       </div> */}
@@ -99,7 +99,7 @@ export default function Home() {
 
         <Button
           variant={'ghost'}
-          className="hover:bg-inherit"
+          className="hover:bg-inherit w-[300px]"
           onClick={skip}
         ></Button>
         {movie ? (
